@@ -1,0 +1,59 @@
+/* */
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: #0F0808;
+  color: rgb(253, 253, 253);
+}
+
+p {
+  line-height: 2rem;
+  font-size: 20px;
+}
+
+.parallax {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.connect{
+margin: -150px 1000px;
+}
+
+h6 {
+  font-size: 17px;
+}
+
+/*FOOTER*/
+.page-footer .teal{
+  background-color: black;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.imgfo {
+  width: 150px;
+  height: 150px;
+}
